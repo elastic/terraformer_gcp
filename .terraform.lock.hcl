@@ -1,0 +1,41 @@
+# This file is maintained automatically by "terraform init".
+# Manual edits may be lost in future updates.
+
+provider "registry.terraform.io/hashicorp/google" {
+  version     = "4.58.0"
+  constraints = "4.58.0"
+  hashes = [
+    "h1:gm2VkLDG/ofmJ53962fQF+66gyyXn006hkXZ7CGcsSA=",
+    "zh:0d5e5c1c18d6941db174d899b346f4529b636ec685c17870fdff87c431d3472d",
+    "zh:2011ae69f39da600cdb7dc461c76681336aa3e5b5dc1819e962943d0760dd84d",
+    "zh:250da6a2bafb081ff2ba4da2e76296393940fe64b3130ff7c94a56504c4241c0",
+    "zh:25fc0ce60c5a5a2518812a1bec9b5ea1450fe1fd5083ae244fcf402d7ea544cd",
+    "zh:32aa26026b836038a8abc2a6b33c975982df8bd84bdef4f54517e7dd7afdd10d",
+    "zh:3428ae88298e63bba4b7f4c689446f045db9b6f711fc8598f986905978f43f72",
+    "zh:5e73be40ed475f1b37453e1deb863fe1cbbad0c24d833745435ee69c891768f2",
+    "zh:642eb019ac7e1b76ef97a4f62d4b92aaa2da28b49cb3863d1a406b02ecfa6979",
+    "zh:8b626a135d653f49d205880156541aa74ecb93eea2dd55a23b82f211eb9890f9",
+    "zh:92efa1a0b8af4b866e7bed7e130de5496e5d5463ae41fd1af676ef427d9a7652",
+    "zh:cf8bca8f685fac7b5dabb646c1023360f949ad8205facfe7bf047ad5ba43152e",
+    "zh:f569b65999264a9416862bca5cd2a6177d94ccb0424f3a4ef424428912b9cb3c",
+  ]
+}
+
+provider "registry.terraform.io/hashicorp/google-beta" {
+  version = "4.64.0"
+  hashes = [
+    "h1:3zF6A6S2KP79AIWHflNmbdz2v3aitZvr3iE5jH3IY4M=",
+    "zh:3a84df072e75042c7445d3cc9fd220a2f58199b01b0b936e220554b4e9b59b3c",
+    "zh:60e8a5f5824415859bc847f69f8d48e83126dbe7c440c51fd1a6d1b1df5a3ba9",
+    "zh:6e95c14646cd9c9c8d3f806d05911806830b513769ce32ececf26501f8e77b61",
+    "zh:7757bf4535219be1e8a127fada8e9f3d188c11babd7c2b8bf308a705e81c0261",
+    "zh:78c1b91d93259b90a48519a85bfcc127aa4a46e8180400169e76fe8976f1965f",
+    "zh:85dedb9aaaa4d9c95270a08edf212e1f07f253a6da6934052f6e6e5c352ac84d",
+    "zh:8dff151ba3dece2d12270216253f12ec9c550f437ebbb90daf5e1fb628da30d9",
+    "zh:b3d2797f06d97d1c85e94e5fda04d6c4191211dba954a6c45dcc6441d32bd409",
+    "zh:b68102e435b4071d4aa26c415a787d259373f97a9049e68844e97504672695f9",
+    "zh:c865728116c3ebc9b4c6bd7d942b17d5640c368eb50574a2e7edfa15cc7b2c9b",
+    "zh:eb550d69402a201c805f078756f4102449ce8a04620db31ab5e964d93846eb5f",
+    "zh:f569b65999264a9416862bca5cd2a6177d94ccb0424f3a4ef424428912b9cb3c",
+  ]
+}
